@@ -35,6 +35,8 @@ namespace GraphicCardsNewPb
             }
         }
 
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             game.Move(activeCard);
@@ -50,7 +52,7 @@ namespace GraphicCardsNewPb
                 activeCard = card;
                 pb.Top += 10;
                 Panel playerPnl = ((GraphicCardSet)game.ActivePlayer.HandCards).Pnl;
-                bMove.Location = new Point(playerPnl.Left + pb.Left+pb.Width,playerPnl.Top);
+                bMove.Location = new Point(playerPnl.Left + pb.Left,playerPnl.Top-bMove.Height);
                 bMove.Visible = true;
             }
             else if (e.Button == MouseButtons.Right)

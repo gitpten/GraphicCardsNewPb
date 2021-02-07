@@ -52,11 +52,7 @@ namespace CardGame
 
         public void Start()
         {
-            Deck.Mix();
-            foreach (var player in Players)
-            {
-                player.HandCards.Add(Deck.Deal(3));
-            }
+            Deal();
             ActivePlayer = Players[0];
             Refresh();
         }
