@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards", "..\Card\Card\Cards
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame", "GardGame\CardGame.csproj", "{D9D7A204-2B81-4E13-ACF0-B03979D2E618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicCards", "GraphicCards\GraphicCards.csproj", "{0E48C6B9-E839-4BB7-B357-9B07D5AB8B7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D9D7A204-2B81-4E13-ACF0-B03979D2E618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9D7A204-2B81-4E13-ACF0-B03979D2E618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9D7A204-2B81-4E13-ACF0-B03979D2E618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E48C6B9-E839-4BB7-B357-9B07D5AB8B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E48C6B9-E839-4BB7-B357-9B07D5AB8B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E48C6B9-E839-4BB7-B357-9B07D5AB8B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E48C6B9-E839-4BB7-B357-9B07D5AB8B7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

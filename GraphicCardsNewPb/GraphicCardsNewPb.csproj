@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GraphicCardsNewPb</RootNamespace>
     <AssemblyName>GraphicCardsNewPb</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -47,17 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardPictureBox.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GraphicCard.cs" />
-    <Compile Include="GraphicCardSet.cs" />
     <Compile Include="GraphicGame.cs" />
     <Compile Include="GraphicPlayer.cs" />
     <Compile Include="Program.cs" />
@@ -96,6 +91,10 @@
     <ProjectReference Include="..\GardGame\CardGame.csproj">
       <Project>{d9d7a204-2b81-4e13-acf0-b03979d2e618}</Project>
       <Name>CardGame</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphicCards\GraphicCards.csproj">
+      <Project>{0e48c6b9-e839-4bb7-b357-9b07d5ab8b7f}</Project>
+      <Name>GraphicCards</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
